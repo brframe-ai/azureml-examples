@@ -22,7 +22,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'aml-ws-connection'
+    azureSubscription: 'myamlconnection'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
